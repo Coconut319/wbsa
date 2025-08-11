@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Dein Unternehmen</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">[Logo]</div>
+            <nav class="nav">
+                <a href="#about">Über uns</a>
+                <a href="#services">Leistungen</a>
+                <a href="#contact" class="btn-primary">Jetzt anfragen</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container hero-content">
+            <h1>Wir bringen Ihre Ideen zum Strahlen</h1>
+            <p>Professionelle Lösungen für Ihr Projekt – klar, modern und wirkungsvoll.</p>
+            <a href="#contact" class="btn-primary btn-large">Jetzt anfragen</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Über uns</h2>
+            <p>Wir sind ein engagiertes Team, das Unternehmen dabei unterstützt, ihre Ziele zu erreichen – mit klaren Strategien, moderner Umsetzung und viel Leidenschaft.</p>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Unsere Leistungen</h2>
+            <div class="service-grid">
+                <div class="service-card">
+                    <h3>Beratung</h3>
+                    <p>Individuelle Analyse und zielgerichtete Strategien.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Design</h3>
+                    <p>Ästhetische und benutzerfreundliche Gestaltung.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Umsetzung</h3>
+                    <p>Effiziente und nachhaltige Realisierung Ihrer Projekte.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Kontakt aufnehmen</h2>
+            <form action="https://formspree.io/f/mqalnezy" method="POST" class="contact-form">
+                <input type="text" name="name" placeholder="Ihr Name" required />
+                <input type="email" name="email" placeholder="Ihre E-Mail" required />
+                <textarea name="message" placeholder="Ihre Nachricht" required></textarea>
+                <button type="submit" class="btn-primary">Nachricht senden</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Dein Unternehmen – Alle Rechte vorbehalten.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
